@@ -21,7 +21,6 @@ class App extends Component {
     if(this.props.loading || this.state.loading){
       return(<Loading />)
     }
-    console.log('this.props.match.params.redirectUrl '+this.props.match.params.redirectUrl);
     return (
       <div className="App">
         <Header/>

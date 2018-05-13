@@ -68,7 +68,6 @@ class Gamelist extends Component {
     }
     let url ='';
     let uppurl = 'all';
-    console.log(typeof this.props.activeTab);
     if(typeof this.props.activeTab === 'undefined'){
       uppurl = 'all'
     }

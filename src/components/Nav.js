@@ -26,7 +26,6 @@ onValueChange(e){
    this.setState({currentEvent: e.target.value});
 }
   render(){
-    console.log('Value : ' + this.state.currentEvent);
     const value = this.state.currentEvent;
     const games_data = this.props.data;
     let matched = false
